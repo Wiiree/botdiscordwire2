@@ -41,7 +41,7 @@ bot.on('guildMemberAdd', member => {
   member.addRole(role)
 })
 
-bot.login(process.env.TOKEN)
+client.login(process.env.TOKEN)
 
 client.on("ready", () => {
     console.log("Je suis prêt !");
@@ -226,7 +226,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`🎶 Commence à etre jouer: **${song.title}**`);
 }
 
-bot.login(process.env.TOKEN)
+client.login(process.env.TOKEN)
 
 client.on("message", (message) => {
 
