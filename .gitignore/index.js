@@ -226,8 +226,6 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`🎶 Commence à etre jouer: **${song.title}**`);
 }
 
-client.login(process.env.TOKEN)
-
 client.on("message", (message) => {
 
 if (message.content.startsWith(prefix + "aide")) {
