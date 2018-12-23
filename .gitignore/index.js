@@ -22,7 +22,7 @@ app.listen(app.get('port'), function(){
   console.log(`Bot en fonctionnement sur le port ${app.get('port')}`);
 })
 
-const youtube = new YouTube('AIzaSyCVZ9Le-dBnPMXMuPEmuc491Or21D89UNk');
+const youtube = new YouTube(process.env.YOUTUBE);
 
 const queue = new Map();
 
