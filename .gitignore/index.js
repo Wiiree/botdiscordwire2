@@ -236,7 +236,7 @@ if (message.content.startsWith(prefix + "aide")) {
     .addField("!play", "lance une musique")
     .addField("!info", "affiche les informations du bot et du serveur")
     .addField("!kick @", "kick l'utilisateur mentionner")
-    .addField("skip", "Passe à la prochaine musique")
+    .addField("!skip", "Passe à la prochaine musique")
     .addField("!volume", "Met le volume à la valeur séléctionner(0.5 est très bien)")
     .addField("!np", "Affiche la musique jouer en ce moments")
     .addField("!queue", "Affiches les musqiues dans la queue")
