@@ -258,14 +258,14 @@ if(message.content === prefix + "info"){
     .addField("Mon descriminateur :", `#${client.user.discriminator}`)
     .addField("Mon id :", `${client.user.id}`)
     .setThumbnail(client.user.avatarURL)
-    .setFooter("Discraft | By Théo'Stronaute")
+    .setFooter("Galactical's bot | By Galactical_ŴỉяĚ")
     message.channel.sendMessage(info_embed);
     var info_embed_deux = new Discord.RichEmbed()
     .setColor("#339933")
     .setTitle("Informations du serveur")
     .addField("Nombre de membres :", message.guild.members.size)
     .addField("Nombre de catégories et de salons :", message.guild.channels.size)
-    .setFooter("Discraft | By Théo'Stronaute")
+    .setFooter("Galactical's bot | By Galactical_ŴỉяĚ")
     message.channel.sendMessage(info_embed_deux);
     console.log("Un utilisateur à effectuer la commande d'information");
 }
