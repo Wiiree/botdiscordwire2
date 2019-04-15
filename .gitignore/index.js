@@ -244,7 +244,7 @@ if (message.content.startsWith(prefix + "aide")) {
     .addField("!ping", "Surprise!")
     .addField("PS :", "toutes les commandes doivent avoir un ! au début.")
     .setThumbnail(client.user.avatarURL)
-    .setFooter("Galactical's bot | By ŴỉяĚ")
+    .setFooter("LightMatter bot | By ŴỉяĚ")
     message.channel.sendMessage(help_embed);
     console.log("Un utilisateur à effectuer la commande d'aide");
 }
@@ -257,14 +257,14 @@ if(message.content === prefix + "info"){
     .addField("Mon descriminateur :", `#${client.user.discriminator}`)
     .addField("Mon id :", `${client.user.id}`)
     .setThumbnail(client.user.avatarURL)
-    .setFooter("Galactical's bot | By ŴỉяĚ")
+    .setFooter("LightMatter bot | By ŴỉяĚ")
     message.channel.sendMessage(info_embed);
     var info_embed_deux = new Discord.RichEmbed()
     .setColor("#339933")
     .setTitle("Informations du serveur")
     .addField("Nombre de membres :", message.guild.members.size)
     .addField("Nombre de catégories et de salons :", message.guild.channels.size)
-    .setFooter("Galactical's bot | By ŴỉяĚ")
+    .setFooter("LightMatter bot | By ŴỉяĚ")
     message.channel.sendMessage(info_embed_deux);
     console.log("Un utilisateur à effectuer la commande d'information");
 }
